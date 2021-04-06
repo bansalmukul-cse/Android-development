@@ -1,0 +1,30 @@
+using a textview 
+<TaskView
+    anddroid:text="happy birythday"
+    android:background="@android:color/daeker_grey"
+    android:layout_width="150dp"
+    android:layout_height="75dp"  />
+
+
+assigns linearlly syntax:
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    andriod:orientation="vertical">
+    
+    <TaskView
+    anddroid:text="happy birythday"
+    android:background="@android:color/daeker_grey"
+    android:layout_width="150dp"
+    android:layout_height="75dp"  />
+</LineaerLayout>
+
+
+sample image view:-
+<ImageView
+    android:src="@drawable/cake"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"/>
+
+*scaleType may be centercrop and center
