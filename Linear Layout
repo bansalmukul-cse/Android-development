@@ -1,0 +1,15 @@
+//LinearLayout:-this view group alligns positions either in vertical or either in horozontal
+
+<LinearLayout
+    android:orientation="vertical"--------position allign
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    andriod:orientation="vertical">
+    
+    <TaskView
+    anddroid:text="happy birythday"
+    android:background="@android:color/daeker_grey"
+    android:layout_width="150dp"
+    android:layout_height="75dp"  />
+</LineaerLayout>
+
