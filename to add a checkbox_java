@@ -1,0 +1,4 @@
+//code is
+//basically work with bollean either true or false
+CheckBox whippedCreamCheckBox = (CheckBox) findViewById(R.id.whipped_cream_checkbox);
+        boolean hasWhippedCream = whippedCreamCheckBox.isChecked();
