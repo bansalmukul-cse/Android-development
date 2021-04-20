@@ -1,0 +1,14 @@
+//in xml
+<EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"-------this is type of hint what we enter
+            android:inputType="textCapWords" />----- first letter is capital after space
+            
+            
+
+//in java code :
+EditText text= (EditText) findViewById(R.id.name_field) ;
+        String name = text.getText().toString();
+        Log.v("MainActivity","Name: " + name);
