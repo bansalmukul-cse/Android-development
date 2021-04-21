@@ -1,0 +1,7 @@
+//toast in java:(just like in email in message save as dreafts)
+//A toast provides simple feedback about an operation in a small popup
+///It only fills the amount of space required for the message 
+//the current activity remains visible and interactive. Toasts automatically disappear after a timeout.
+  
+//code
+Toast.makeText(this, "You cannot have less than 1 coffee", Toast.LENGTH_SHORT).show();    
