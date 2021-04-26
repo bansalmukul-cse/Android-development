@@ -1,0 +1,11 @@
+//asynchronous calls:
+//that something other thing happen while waiting for other event
+//async calls:
+//use :
+ private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener() {
+        @Override
+        public void onCompletion(MediaPlayer mediaPlayer) {
+            // Now that the sound file has finished playing, release the media player resources.
+            releaseMediaPlayer();
+        }
+    };
