@@ -1,0 +1,22 @@
+<manifest ...>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application ...>
+        ...
+    </application>
+</manifest>
+
+
+
+
+//AndroidManifest.xml
+//this way also 
+//Declare hardware as optional
+
+
+<manifest ...>
+    <application>
+        ...
+    </application>
+    <uses-feature android:name="android.hardware.camera"
+                  android:required="false" />
+<manifest>
