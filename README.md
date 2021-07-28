@@ -1,2 +1,2 @@
-# Android-Development
-in this all required material for android development is available
+
+Any application developed to be supported by the Android Operating system using the android software development kit (sdk) on android studio is the process of android development. The open-source operating system designed by Google especially for mobiles is Android. Android OS has been developed using Linux Kernel. Because of the ability of easily modifiable (as its open source), most of the android developers have used different GUIs even when all of them use the same basic operating system.Android is an open source operating system with the highest community and developers reach which is the highest reason for it having the increased marketing and inter-app integrations
